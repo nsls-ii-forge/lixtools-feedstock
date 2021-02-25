@@ -14,7 +14,7 @@ source:
     - 0001-missing-files.patch
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps
 
@@ -32,7 +32,6 @@ requirements:
     - py4xs
     - python-barcode
     - qrcode
-    - xlrd
 
 test:
   imports:
