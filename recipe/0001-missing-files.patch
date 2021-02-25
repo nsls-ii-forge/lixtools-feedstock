@@ -1,14 +1,15 @@
-From 172ad0750f80c39f9598c5a5d6c8ae1fb98bfc68 Mon Sep 17 00:00:00 2001
+From 2a77d4117e6c97f9c97a88e9c235d8005b76c00b Mon Sep 17 00:00:00 2001
 From: Maksim Rakitin <mrakitin@bnl.gov>
-Date: Thu, 25 Feb 2021 13:15:44 -0500
+Date: Thu, 25 Feb 2021 13:44:35 -0500
 Subject: [PATCH] missing files
 
 ---
  LICENSE                            | 29 +++++++++++++++++++++++++++++
  MANIFEST.in                        | 16 ++++++++++++++++
+ lixtools.egg-info/SOURCES.txt      |  4 ++++
  lixtools/plate_label_template.html | 30 ++++++++++++++++++++++++++++++
  lixtools/template_report.ipynb     | 30 ++++++++++++++++++++++++++++++
- 4 files changed, 105 insertions(+)
+ 5 files changed, 109 insertions(+)
  create mode 100644 LICENSE
  create mode 100644 MANIFEST.in
  create mode 100644 lixtools/plate_label_template.html
@@ -71,6 +72,25 @@ index 0000000..8fafa6e
 +
 +include lixtools/plate_label_template.html
 +include lixtools/template_report.ipynb
+diff --git a/lixtools.egg-info/SOURCES.txt b/lixtools.egg-info/SOURCES.txt
+index bec9ba2..a15e0ad 100644
+--- a/lixtools.egg-info/SOURCES.txt
++++ b/lixtools.egg-info/SOURCES.txt
+@@ -1,3 +1,5 @@
++LICENSE
++MANIFEST.in
+ README.md
+ setup.py
+ lixtools/__init__.py
+@@ -6,6 +8,8 @@ lixtools/hdf.py
+ lixtools/mailin.py
+ lixtools/modeling.py
+ lixtools/notebooks.py
++lixtools/plate_label_template.html
++lixtools/template_report.ipynb
+ lixtools.egg-info/PKG-INFO
+ lixtools.egg-info/SOURCES.txt
+ lixtools.egg-info/dependency_links.txt
 diff --git a/lixtools/plate_label_template.html b/lixtools/plate_label_template.html
 new file mode 100644
 index 0000000..0c3ad66
