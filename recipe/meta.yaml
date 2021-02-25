@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
   patches:
     # TODO: remove this patch once https://github.com/NSLS-II-LIX/lixtools/pull/1 is merged and released.
-    - missing-files.patch
+    - 0001-missing-files.patch
 
 build:
   number: 0
