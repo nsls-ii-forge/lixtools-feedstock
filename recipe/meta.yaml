@@ -1,6 +1,6 @@
 {% set name = "lixtools" %}
-{% set version = "2021.2.21.1" %}
-{% set sha256 = "068ea68fbfe1b3e1134ba544046974ee7426a8305574b7c250e526598385b9df" %}
+{% set version = "2021.3.15.0" %}
+{% set sha256 = "24f582cbe15f63bccbcce6ba94824d4cb45775dc6e968013b71b7efb3e6d0ab3" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
     - 0001-missing-files.patch
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps
 
@@ -44,4 +44,4 @@ about:
   home: https://github.com/NSLS-II-LIX/lixtools
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: "Software tools for data collection/processing at NSLS-II LiX"
+  summary: Software tools for data collection/processing at NSLS-II LiX
