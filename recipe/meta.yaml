@@ -1,6 +1,6 @@
 {% set name = "lixtools" %}
-{% set version = "2021.3.31.0" %}
-{% set sha256 = "5d41af434ac3ecdb98a189d09967bec4143358a3fb8a1eb5b5572bdeee9139f8" %}
+{% set version = "2021.6.2.1" %}
+{% set sha256 = "d75647e6652a8828b6ffcd27682930f05fea985ed34f66d0dbc93c42b060a37a" %}
 
 package:
   name: {{ name|lower }}
